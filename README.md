@@ -73,7 +73,7 @@ Make sure you have Python installed (version 3.8 or later recommended) - 3.8.8 u
 
 OpenAI version used: openai 1.30.3. 
 
-To use the OpenAI API for generating vector embeddings, ensure you have an OpenAI account with valid API keys. You can obtain your API keys from the OpenAI platform here and manage them here. Additionally, ensure that your account has sufficient usage quota, as this example requires a paid OpenAI account.
+To use the OpenAI API for generating vector embeddings, ensure you have an OpenAI account with valid API keys. You can obtain your API keys from the OpenAI platform (https://platform.openai.com/) and manage them (https://platform.openai.com/organization/api-keys). Additionally, ensure that your account has sufficient usage quota, as this example requires a paid OpenAI account.
 
 Langchain version: 0.2.1
 

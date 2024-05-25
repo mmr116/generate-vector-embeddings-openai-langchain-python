@@ -69,7 +69,9 @@ Language: Python
 
 # Assumptions
 
-Make sure you have Python installed (version 3.6 or later recommended).
+Make sure you have Python installed (version 3.8 or later recommended).
+
+OpenAI version used: openai 1.30.3
 
 Create a virtual environment (optional but recommended) to isolate project dependencies.
 

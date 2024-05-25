@@ -71,7 +71,9 @@ Language: Python
 
 Make sure you have Python installed (version 3.8 or later recommended) - 3.8.8 used.
 
-OpenAI version used: openai 1.30.3. To use OpenAI API for vector embeddings generation, make sure you have OpenAI account with API keys (https://platform.openai.com/) with usage quota (OpenAI paid account has been used) 
+OpenAI version used: openai 1.30.3. 
+
+To use the OpenAI API for generating vector embeddings, ensure you have an OpenAI account with valid API keys. You can obtain your API keys from the OpenAI platform here and manage them here. Additionally, ensure that your account has sufficient usage quota, as this example requires a paid OpenAI account.
 
 Langchain version: 0.2.1
 

@@ -25,7 +25,9 @@ pip install openai pinecone langchain PyPDF2
 
 &#8209; PyPDF2: Python library for extracting text content from PDF files.
 
-1-test-embeddings-openai.py
+# Python Scripts
+
+- 1-test-embeddings-openai.py
 
 This script demonstrates how to generate an embedding for a given text sentence using the OpenAI API.
 

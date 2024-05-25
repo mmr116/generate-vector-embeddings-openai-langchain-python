@@ -92,5 +92,6 @@ Use your pdf file and adjust file path accordingly: pdf_path = "filepath_for_you
 
 Run each script from the command line. Example: python 1-test-embeddings-openai.py 
 
-
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
 

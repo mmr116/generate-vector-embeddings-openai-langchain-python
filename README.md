@@ -81,10 +81,5 @@ Set the OPENAI_API_KEY, PINECONE_API_KEY environment variables with your respect
 
 You might need to adjust file paths and other parameters within the scripts.
 
-Run each script from the command line: python 1-test-embeddings-openai.py etc.
+Run each script from the command line. Example: python 1-test-embeddings-openai.py 
 
-
-# Additional Notes
-
-Replace "text-embedding-ada-002" with your desired OpenAI model name for generating embeddings.
-Error handling is included in some scripts (demonstrated) but can be further improved for production use.

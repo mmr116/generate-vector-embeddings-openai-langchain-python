@@ -2,7 +2,7 @@
 
 This repository contains Python code for generating and storing text embeddings from a PDF document. The code utilizes several technologies:
 
-- OpenAI API: Used to generate numerical representations (embeddings) of text chunks.
+- OpenAI API: Used to generate numerical representations (embeddings) of text chunks. OpenAI model "text-embedding-ada-002" used for generating embeddings.
 - Pinecone: A vector database for storing and efficiently searching the generated embeddings.
 - PyPDF2: A Python library to extract text from PDF files.
 - langchain.text_splitter: A library for splitting text into smaller chunks.
@@ -70,11 +70,17 @@ Language: Python
 # Assumptions
 
 Make sure you have Python installed (version 3.6 or later recommended).
+
 Create a virtual environment (optional but recommended) to isolate project dependencies.
+
 Install the required libraries using pip install openai langchain pypdf2 pinecone.
-Set the OPENAI_API_KEY and PINECONE_API_KEY environment variables with your respective API keys.
+
+Set the OPENAI_API_KEY, PINECONE_API_KEY environment variables with your respective API keys.
+
 You might need to adjust file paths and other parameters within the scripts.
+
 Run each script from the command line: python 1-test-embeddings-openai.py etc.
+
 
 # Additional Notes
 

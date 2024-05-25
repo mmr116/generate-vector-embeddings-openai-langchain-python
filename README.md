@@ -35,7 +35,7 @@ Functionality: Generates an embedding for the text "Hello world".
 Technology: OpenAI API (Python library)
 Language: Python
 
-2-pinecone-embedding-store-test.py
+- 2-pinecone-embedding-store-test.py
   
 This script showcases storing a sample embedding in a Pinecone index.
 
@@ -43,7 +43,7 @@ Functionality: Stores a sample embedding vector in a Pinecone index.
 Technology: Pinecone (Python library)
 Language: Python
 
-3. 3-generate-text-chunks-embeddings-from-pdf.py
+- 3-generate-text-chunks-embeddings-from-pdf.py
 
 This script takes a PDF file, extracts the text content, splits it into chunks, generates embeddings for each chunk using OpenAI, and finally prints the results.
 
@@ -51,7 +51,7 @@ Functionality: Extracts text from PDF, splits into chunks, generates embeddings 
 Technology: PyPDF2, langchain.text_splitter, OpenAI API (Python libraries)
 Language: Python
 
-4. 4-generate-text-chunks-embeddings-store-vectordb.py
+- 4-generate-text-chunks-embeddings-store-vectordb.py
 
 This script builds upon the previous one by not only generating embeddings but also storing them in a Pinecone index along with the original text chunks as metadata.
 

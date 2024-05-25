@@ -40,7 +40,7 @@ def generate_embeddings(chunks):
   return embeddings
 
 # Example usage
-pdf_path = "/home/mrahman116/vector-embedding/embeddings-test.pdf"
+pdf_path = "/replace_with_your_pdf_filepath/embeddings-test.pdf"
 
 # Step 1: Extract text from PDF
 extracted_text = extract_text_from_pdf(pdf_path)

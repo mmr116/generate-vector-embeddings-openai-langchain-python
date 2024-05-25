@@ -83,7 +83,11 @@ Install the required libraries using pip install openai langchain pypdf2 pinecon
 
 Set the OPENAI_API_KEY, PINECONE_API_KEY, and PINECONE_HOST environment variables with your respective API keys. Example linux command: export OPENAI_API_KEY=your_openai_api_key, export PINECONE_API_KEY=your_pinecone_api_key, export PINECONE_HOST=your_pinecone_host
 
+Pinecone environment used: 1. Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless
+
 You might need to adjust file paths and other parameters within the scripts.
 
 Run each script from the command line. Example: python 1-test-embeddings-openai.py 
+
+
 

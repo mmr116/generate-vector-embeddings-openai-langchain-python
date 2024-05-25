@@ -1,6 +1,6 @@
 # Vector Embedding - Code Repository
 
-This repository contains Python code for generating and storing text embeddings from a PDF document. The code utilizes several technologies:
+This repository contains Python scripts for generating and storing text embeddings from a PDF document. The code utilizes several technologies:
 
 - OpenAI API: Used to generate numerical representations (embeddings) of text chunks. OpenAI model "text-embedding-ada-002" used for generating embeddings.
 - Pinecone: A vector database for storing and efficiently searching the generated embeddings.
@@ -88,7 +88,7 @@ Example linux command: export OPENAI_API_KEY="your_openai_api_key", export PINEC
 
 Pinecone environment (Pinecone free account used https://www.pinecone.io/):  1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace: index_name = "replace with your index name" (2-pinecone-embedding-store-test.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
 
-You might need to adjust file paths and other parameters within the scripts.
+Use your pdf file and adjust file path accordingly: pdf_path = "/home/testaccount/test.pdf". (3-generate-text-chunks-embeddings-from-pdf.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
 
 Run each script from the command line. Example: python 1-test-embeddings-openai.py 
 

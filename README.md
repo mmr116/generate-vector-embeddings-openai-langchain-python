@@ -67,7 +67,7 @@ Technology: PyPDF2, langchain.text_splitter, OpenAI API, Pinecone (Python librar
 
 Language: Python
 
-# Assumptions
+# Assumptions / Requirements
 
 Make sure you have Python installed (version 3.8 or later recommended) - 3.8.8 used.
 

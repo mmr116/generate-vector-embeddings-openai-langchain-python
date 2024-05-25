@@ -1,6 +1,6 @@
 # Vector Embedding - Code Repository
 
-This repository contains Python scripts for generating and storing text embeddings from a PDF document. The code utilizes several technologies:
+This repository contains Python scripts for generating and storing text embeddings in a vector database from a PDF document. The code utilizes several technologies:
 
 - OpenAI API: Used to generate numerical representations (embeddings) of text chunks. OpenAI model "text-embedding-ada-002" used for generating embeddings.
 - Pinecone: A vector database for storing and efficiently searching the generated embeddings.

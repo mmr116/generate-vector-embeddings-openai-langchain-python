@@ -18,9 +18,9 @@ pip install openai pinecone langchain PyPDF2
 - Required Python Packages
 
 &#8209; openai: Python library for interacting with the OpenAI API for generating embeddings.
-* pinecone: Python library for managing data interactions with the Pinecone vector database.
-* langchain: Python library that provides the RecursiveCharacterTextSplitter class for splitting text into chunks.
-* PyPDF2: Python library for extracting text content from PDF files.
+&#8209; pinecone: Python library for managing data interactions with the Pinecone vector database.
+&#8209; langchain: Python library that provides the RecursiveCharacterTextSplitter class for splitting text into chunks.
+&#8209; PyPDF2: Python library for extracting text content from PDF files.
 
 1-test-embeddings-openai.py
 

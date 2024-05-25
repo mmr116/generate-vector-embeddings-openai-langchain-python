@@ -77,7 +77,7 @@ Create a virtual environment (optional but recommended) to isolate project depen
 
 Install the required libraries using pip install openai langchain pypdf2 pinecone.
 
-Set the OPENAI_API_KEY, PINECONE_API_KEY, and PINECONE_HOST environment variables with your respective API keys. Example linux command: export OPENAI_API_KEY="sample api key"
+Set the OPENAI_API_KEY, PINECONE_API_KEY, and PINECONE_HOST environment variables with your respective API keys. Example linux command: export OPENAI_API_KEY=your_openai_api_key, export PINECONE_API_KEY=your_pinecone_api_key, export PINECONE_HOST=your_pinecone_host
 
 You might need to adjust file paths and other parameters within the scripts.
 

@@ -69,9 +69,13 @@ Language: Python
 
 # Assumptions
 
-Make sure you have Python installed (version 3.8 or later recommended).
+Make sure you have Python installed (version 3.8 or later recommended) - 3.8.8 used.
 
 OpenAI version used: openai 1.30.3
+
+Langchain version: 0.2.1
+
+PyPDF2 version: 3.0.1
 
 Create a virtual environment (optional but recommended) to isolate project dependencies.
 

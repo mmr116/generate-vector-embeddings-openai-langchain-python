@@ -62,7 +62,7 @@ def store_embeddings_in_pinecone(embeddings, chunks):
     embedding_dimension = 1536  # Update based on your OpenAI model or experiment
 
     # Print retrieved API key for verification (optional)
-    print(f"Retrieved Pinecone API key: {pinecone_api_key}")
+    # print(f"Retrieved Pinecone API key: {pinecone_api_key}")
 
     # Initialize Pinecone instance
     pinecone = Pinecone(api_key=pinecone_api_key, environment=pinecone_host)

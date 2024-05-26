@@ -15,7 +15,7 @@ if not pinecone_host:
 pinecone = Pinecone(api_key=pinecone_api_key, environment=pinecone_host)
 
 # Define index name and dimension
-index_name = "replace_pinecone_index_name"
+index_name = "replace your pinecone index name here"
 embedding_dimension = 1536  # Dimension based on your provided information
 
 # Connect to the index

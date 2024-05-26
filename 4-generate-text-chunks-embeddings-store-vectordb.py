@@ -68,7 +68,7 @@ def store_embeddings_in_pinecone(embeddings, chunks):
     pinecone = Pinecone(api_key=pinecone_api_key, environment=pinecone_host)
 
     # Connect to the existing index
-    index_name = "document-embeddings"
+    index_name = "replace your index name here"
     index = pinecone.Index(index_name)
 
     # Create a list of dictionaries, where each dictionary represents a data point

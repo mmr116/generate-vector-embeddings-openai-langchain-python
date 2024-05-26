@@ -90,11 +90,11 @@ Language: Python
 
 - Set the OPENAI_API_KEY, PINECONE_API_KEY, and PINECONE_HOST environment variables with your respective API keys. Use the following Linux commands to export these variables:
 
-export OPENAI_API_KEY="your_openai_api_key"
+  export OPENAI_API_KEY="your_openai_api_key"
 
-export PINECONE_API_KEY="your_pinecone_api_key"
+  export PINECONE_API_KEY="your_pinecone_api_key"
 
-export PINECONE_HOST="your_pinecone_host"
+  export PINECONE_HOST="your_pinecone_host"
 
 - Pinecone environment (Pinecone free account used https://www.pinecone.io/):  1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace: index_name = "replace with your index name" (2-pinecone-embedding-store-test.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
 

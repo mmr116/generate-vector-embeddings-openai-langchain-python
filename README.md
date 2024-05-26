@@ -20,6 +20,12 @@ Use pip to install the required Python packages within your activated virtual en
 
 #pip install openai pinecone langchain PyPDF2
 
+- API integration
+
+For integrating with OpenAI and Pinecone, you need to obtain and configure the respective API keys for these platforms. You can set the API key as an environment variable.
+
+Details included in the assumptions / requirements section below.
+
 # Required Python Packages
 
 &#8209; openai: Python library for interacting with the OpenAI API for generating embeddings.

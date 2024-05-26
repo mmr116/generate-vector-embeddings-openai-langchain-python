@@ -14,11 +14,11 @@ This repository contains Python scripts for generating and storing text embeddin
 - Ensure you have Python installed (version 3.6 or later recommended).
 - Consider creating a virtual environment using tools like venv or virtualenv to isolate project dependencies and avoid conflicts with other Python installations.
 
-Package Installation: 
+- Package Installation: 
 
 Use pip to install the required Python packages within your activated virtual environment (if applicable):
 
-pip install openai pinecone langchain PyPDF2
+#pip install openai pinecone langchain PyPDF2
 
 # Required Python Packages
 
@@ -29,6 +29,8 @@ pip install openai pinecone langchain PyPDF2
 &#8209; langchain: Python library that provides the RecursiveCharacterTextSplitter class for splitting text into chunks.
 
 &#8209; PyPDF2: Python library for extracting text content from PDF files.
+
+Details included in the assumptions / requirements section below.
 
 # Python Scripts
 
@@ -66,11 +68,11 @@ This script takes a PDF file, extracts the text content, splits it into chunks, 
 
 This script builds upon the previous one by not only generating embeddings but also storing them in a Pinecone index along with the original text chunks as metadata.
 
-Functionality: Extracts text from PDF, splits into chunks, generates embeddings, stores them with corresponding text in Pinecone.
+- Functionality: Extracts text from PDF, splits into chunks, generates embeddings, stores them with corresponding text in Pinecone.
 
-Technology: PyPDF2, langchain.text_splitter, OpenAI API, Pinecone (Python libraries)
+- Technology: PyPDF2, langchain.text_splitter, OpenAI API, Pinecone (Python libraries)
 
-Language: Python
+- Language: Python
 
 # Assumptions / Requirements
 

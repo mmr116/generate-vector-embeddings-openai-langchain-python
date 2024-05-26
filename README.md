@@ -1,4 +1,4 @@
-# Vector Embedding - Code Repository
+# Vector Embeddings with OpenAI, Langchain and Pinecone - Code Repository
 
 This repository contains Python scripts for generating and storing text embeddings in a vector database from a PDF document. The code utilizes several technologies:
 

@@ -14,15 +14,11 @@ This repository contains Python scripts for generating and storing text embeddin
 - Ensure you have Python installed (version 3.6 or later recommended).
 - Consider creating a virtual environment using tools like venv or virtualenv to isolate project dependencies and avoid conflicts with other Python installations.
 
-- Package Installation: 
-
-Use pip to install the required Python packages within your activated virtual environment (if applicable):
+- Package Installation: Use pip to install the required Python packages within your activated virtual environment (if applicable):
 
 #pip install openai pinecone langchain PyPDF2
 
-- API integration
-
-For integrating with OpenAI and Pinecone, you need to obtain and configure the respective API keys for these platforms. You can set the API key as an environment variable.
+- API integration: For integrating with OpenAI and Pinecone, you need to obtain and configure the respective API keys for these platforms. You can set the API key as an environment variable.
 
 Details included in the assumptions / requirements section below.
 

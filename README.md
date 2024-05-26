@@ -9,13 +9,18 @@ This repository contains Python scripts for generating and storing text embeddin
 
 # Installation
 
-- Prerequisites: Ensure you have Python installed (version 3.6 or later recommended). Consider creating a virtual environment using tools like venv or virtualenv to isolate project dependencies and avoid conflicts with other Python installations.
+# Prerequisites:
 
-Package Installation: Use pip to install the required Python packages within your activated virtual environment (if applicable):
+- Ensure you have Python installed (version 3.6 or later recommended).
+- Consider creating a virtual environment using tools like venv or virtualenv to isolate project dependencies and avoid conflicts with other Python installations.
+
+Package Installation: 
+
+Use pip to install the required Python packages within your activated virtual environment (if applicable):
 
 pip install openai pinecone langchain PyPDF2
 
-- Required Python Packages
+# Required Python Packages
 
 &#8209; openai: Python library for interacting with the OpenAI API for generating embeddings.
 
@@ -27,37 +32,37 @@ pip install openai pinecone langchain PyPDF2
 
 # Python Scripts
 
-- 1-test-embeddings-openai.py
+1. 1-test-embeddings-openai.py
 
 This script demonstrates how to generate an embedding for a given text sentence using the OpenAI API.
 
-Functionality: Generates an embedding for the text "Hello world".
+- Functionality: Generates an embedding for the text "Hello world".
 
-Technology: OpenAI API (Python library)
+- Technology: OpenAI API (Python library)
 
-Language: Python
+- Language: Python
 
-- 2-pinecone-embedding-store-test.py
+2. 2-pinecone-embedding-store-test.py
   
 This script showcases storing a sample embedding in a Pinecone index.
 
-Functionality: Stores a sample embedding vector in a Pinecone index.
+- Functionality: Stores a sample embedding vector in a Pinecone index.
 
-Technology: Pinecone (Python library)
+- Technology: Pinecone (Python library)
 
-Language: Python
+- Language: Python
 
-- 3-generate-text-chunks-embeddings-from-pdf.py
+3. 3-generate-text-chunks-embeddings-from-pdf.py
 
 This script takes a PDF file, extracts the text content, splits it into chunks, generates embeddings for each chunk using OpenAI, and finally prints the results.
 
-Functionality: Extracts text from PDF, splits into chunks, generates embeddings for each chunk, and prints them.
+- Functionality: Extracts text from PDF, splits into chunks, generates embeddings for each chunk, and prints them.
 
-Technology: PyPDF2, langchain.text_splitter, OpenAI API (Python libraries)
+- Technology: PyPDF2, langchain.text_splitter, OpenAI API (Python libraries)
 
-Language: Python
+- Language: Python
 
-- 4-generate-text-chunks-embeddings-store-vectordb.py
+4. 4-generate-text-chunks-embeddings-store-vectordb.py
 
 This script builds upon the previous one by not only generating embeddings but also storing them in a Pinecone index along with the original text chunks as metadata.
 
@@ -69,28 +74,33 @@ Language: Python
 
 # Assumptions / Requirements
 
-Make sure you have Python installed (version 3.8 or later recommended) - 3.8.8 used.
+- Make sure you have Python installed (version 3.8 or later recommended) - 3.8.8 used.
 
-OpenAI version used: openai 1.30.3. 
+- OpenAI version used: openai 1.30.3. 
 
-To use the OpenAI API for generating vector embeddings, ensure you have an OpenAI account with valid API keys. You can obtain your API keys from the OpenAI platform (https://platform.openai.com/) and manage them (https://platform.openai.com/organization/api-keys). Additionally, ensure that your account has sufficient usage quota, as this example requires a paid OpenAI account.
+- To use the OpenAI API for generating vector embeddings, ensure you have an OpenAI account with valid API keys. You can obtain your API keys from the OpenAI platform (https://platform.openai.com/) and manage them (https://platform.openai.com/organization/api-keys). Additionally, ensure that your account has sufficient usage quota, as this example requires a paid OpenAI account.
 
-Langchain version: 0.2.1
+- Langchain version: 0.2.1
 
-PyPDF2 version: 3.0.1
+- PyPDF2 version: 3.0.1
 
-Create a virtual environment (optional but recommended) to isolate project dependencies.
+- Create a virtual environment (optional but recommended) to isolate project dependencies.
 
-Install the required libraries using:  pip install openai langchain pypdf2 pinecone
+- Install the required libraries using:  pip install openai langchain pypdf2 pinecone
 
-Set the OPENAI_API_KEY, PINECONE_API_KEY, and PINECONE_HOST environment variables with your respective API keys. 
-Example linux command: export OPENAI_API_KEY="your_openai_api_key", export PINECONE_API_KEY="your_pinecone_api_key", export PINECONE_HOST="your_pinecone_host"
+- Set the OPENAI_API_KEY, PINECONE_API_KEY, and PINECONE_HOST environment variables with your respective API keys. Use the following Linux commands to export these variables:
 
-Pinecone environment (Pinecone free account used https://www.pinecone.io/):  1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace: index_name = "replace with your index name" (2-pinecone-embedding-store-test.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
+export OPENAI_API_KEY="your_openai_api_key"
 
-Use your pdf file and adjust file path accordingly: pdf_path = "filepath_for_your_pdf_file_home/testaccount/test.pdf" (replace file path). (3-generate-text-chunks-embeddings-from-pdf.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
+export PINECONE_API_KEY="your_pinecone_api_key"
 
-Run each script from the command line. Example: python 1-test-embeddings-openai.py 
+export PINECONE_HOST="your_pinecone_host"
+
+- Pinecone environment (Pinecone free account used https://www.pinecone.io/):  1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace: index_name = "replace with your index name" (2-pinecone-embedding-store-test.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
+
+- Use your pdf file and adjust file path accordingly: pdf_path = "filepath_for_your_pdf_file_home/testaccount/test.pdf" (replace file path). (3-generate-text-chunks-embeddings-from-pdf.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
+
+- Run each script from the command line. Example: python 1-test-embeddings-openai.py 
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.

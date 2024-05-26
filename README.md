@@ -38,7 +38,7 @@ Details included in the assumptions / requirements section below.
 
 1. 1-test-embeddings-openai.py
 
-This script demonstrates how to generate an embedding for a given text sentence using the OpenAI API.
+This script demonstrates how to generate an embedding for a sample text sentence using the OpenAI API.
 
 - Functionality: Generates an embedding for the text "Hello world".
 

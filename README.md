@@ -102,12 +102,16 @@ This script builds upon the previous one by not only generating embeddings but a
 
 - Pinecone environment (Pinecone free account used https://www.pinecone.io/):  1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace:
 
-  index_name = "replace with your index name" (2-pinecone-embedding-store-test.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
+In 2-pinecone-embedding-store-test.py and 4-generate-text-chunks-embeddings-store-vectordb.py replace index name:
+
+  index_name = "replace your pinecone index name here" 
 
 - Use your pdf file and adjust file path accordingly:
 
-  pdf_path = "filepath_for_your_pdf_file_home/testaccount/test.pdf" (replace file path). (3-generate-text-chunks-embeddings-from-pdf.py & 4-generate-text-chunks-embeddings-store-vectordb.py)
+In 3-generate-text-chunks-embeddings-from-pdf.py and 4-generate-text-chunks-embeddings-store-vectordb.py replace pdf file path:
 
+  pdf_path = "filepath_for_your_pdf_file_home/example.pdf"
+  
 - Run each script from the command line. Example: python 1-test-embeddings-openai.py 
 
 # License

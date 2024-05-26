@@ -24,11 +24,11 @@ Details included in the assumptions / requirements section below.
 
 # Required Python Packages
 
-&#8209; openai: Python library for interacting with the OpenAI API for generating embeddings.
+&#8209; Openai: Python library for interacting with the OpenAI API for generating embeddings.
 
-&#8209; pinecone: Python library for managing data interactions with the Pinecone vector database.
+&#8209; Pinecone: Python library for managing data interactions with the Pinecone vector database.
 
-&#8209; langchain: Python library that provides the RecursiveCharacterTextSplitter class for splitting text into chunks.
+&#8209; Langchain: Python library that provides the RecursiveCharacterTextSplitter class for splitting text into chunks.
 
 &#8209; PyPDF2: Python library for extracting text content from PDF files.
 
